@@ -1,0 +1,35 @@
+#include <pthread.h> // for pthread_create(), pthread_join(), etc.
+#include <stdio.h> // for scanf(), printf(), etc.
+#include <stdlib.h> // for malloc()
+#include <unistd.h> // for sleep()
+
+#define NUMBER_OF_BOXES_PER_DWELLER 5
+#define ROOM_IN_TRUCK 10
+#define MIN_BOX_WEIGHT 5
+#define MAX_BOX_WEIGHT 50
+#define MAX_TIME_FOR_HOUSE_DWELLER 7
+#define MIN_TIME_FOR_HOUSE_DWELLER 1
+#define MAX_TIME_FOR_MOVER 3
+#define MIN_TIME_FOR_MOVER 1
+#define MIN_TIME_FOR_TRUCKER 1
+#define MAX_TIME_FOR_TRUCKER 3
+#define MIN_TRIP_TIME 5
+#define MAX_TRIP_TIME 10
+#define RANDOM_WITHIN_RANGE(a,b,seed) (a+rand_r(&seed)%(b-a))
+// For pipes
+#define READ_END 0
+#define WRITE_END 1
+
+// Pipe between house dwellers and movers
+int houseFloor[2];
+// Pipe between movers and truckers
+int nextToTrucks[2];
+
+// some function definitions follow
+
+int main(int argc, char** argv){
+    srand(time(NULL));
+
+// rest of the program follows
+    return 0;
+}

@@ -1,0 +1,11 @@
+1) 2 : {0,1}
+2) 10 : {0,1,2,3,4,5,6,7,8,9}
+3) 2^7 = 128
+4) m^n : size of bit to the power # of bits. How many values can 2 10bits hold? 10^2 = 100 :))
+5) 1MB = 1 000 000 bytes, so 1,000,000 addresses ORRRR 1MB =  1,048,576 bytes and 1,048,576 addresses
+6) same values above, but multiply by 8, so either 8,000,000 or  8,388,608 addresses
+7) 1MB * 8B = 8MB
+8) 8MB * 8B = 64MB
+
+
+P2 2^20 / 2^10 = 2^10, = 1MB
